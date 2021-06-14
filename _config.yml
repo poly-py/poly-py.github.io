@@ -1,0 +1,10 @@
+title: Hamilton
+description: A minimal and beautiful Jekyll theme best for writing and note-taking.
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
