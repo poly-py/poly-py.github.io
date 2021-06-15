@@ -1,10 +1,65 @@
-title: Hamilton
-description: A minimal and beautiful Jekyll theme best for writing and note-taking.
+# Site settings
+title: Poly.py - Tools for 3D.
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+google_analytics: G-S9QPBW7EYH
 
-paginate: 10
+baseurl:
+url: arturoalcibia.dev
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+    
+exclude: [Gemfile, Gemfile.lock]
+
+# For header icons
+contact:
+  - type: github
+    icon: 'fa-github-square'
+    link: 'https://github.com/arturoalcibia'
+  - type: vimeo
+    icon: 'fa-vimeo-square'
+    link: 'https://vimeo.com/user63620535'
+  - type: linkedIn
+    icon: 'fa-linkedin-square'
+    link: 'https://ca.linkedin.com/in/arturo-zahar-alcibia-980925165'
+
+
+# Profile Settings
+profile :
+  experience :
+    - role : Pipeline T.D.
+      studio : Sony Imageworks
+      start : April 2021
+      end : Present
+    - role : Pipeline T.D.
+      studio : On Animation Studio
+      start : April 2020
+      end : April 2021
+    - role : Rigging Pipeline T.D.
+      studio : L'Atelier Animation
+      start : April 2019
+      end : April 2020
+    - role : Rigging Pipeline T.D.
+      studio: Huevocartoon
+      start : September 2018
+      end : March 2019
+    - role : Pipeline T.D.
+      studio: MKF Animation
+      start : October 2017
+      end : September 2018
+    - role : Pipeline T.D.
+      studio: Cluster Studio
+      start : April 2017
+      end : October 2017
+
+
+# Sign up for beta form!
+comment-post: https://docs.google.com/forms/d/e/1FAIpQLScMGVqI6QDomXlDkqG_DM7TBxslXtS8JhJH9iNhADf2WjsSYw
+# Email / tool
+comment-post-fields: [ entry.1448189702, entry.1417504055]

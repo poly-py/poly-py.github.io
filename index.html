@@ -1,3 +1,22 @@
 ---
-layout: home
+layout: page
 ---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Poly.py - 3D Tools</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <main>
+    {% include listPosts.html title="Upcoming - Sign up for beta testing!" status="beta" %}
+    <!-- TODO: Uncomment when there are more than released tools! -->
+    <!-- {% include listPosts.html title="Released - Download now!" status="released" %} -->
+  </main>
+</body>
+</html>

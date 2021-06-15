@@ -1,0 +1,13 @@
+<section class="featured">
+  <div class="container">
+    <h2 class="section-title">Tools by category</h2>
+    <div class="split">
+      {% for category in site.toolCategories %}
+      <a href="#" class="featured__item">
+        <img src={{ category.icon }} alt="" class="featured__img">
+        <p class="featured__details"><span class="price">{{ category.name }}</span></p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

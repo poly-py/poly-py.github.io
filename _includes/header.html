@@ -1,0 +1,17 @@
+
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a style="padding-left:10px;" href="//{{ site.url }}"> Poly.py </a>
+
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for page in sorted_pages %}
+      {% if page.showInHeader %}
+        <a style="float: right;" class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</header>

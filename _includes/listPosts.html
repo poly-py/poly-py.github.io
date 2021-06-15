@@ -1,0 +1,20 @@
+<section class="featured">
+  <div class="container">
+    <h2 class="section-title">{{ include.title }}</h2>
+    <div class="split">
+      {% for post in site.posts %}
+
+        {% if include.status != post.status %}
+          {% continue %}
+        {% endif %}
+
+        <a href="{{ post.url | relative_url }}" class="featured__item">
+          <img src={{ post.icon }} alt="" class="featured__img">
+          <p class="featured__details"><span class="price">{{ post.title }}</span></p>
+        </a>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
