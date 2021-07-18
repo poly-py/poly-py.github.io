@@ -10,15 +10,15 @@ input {
 }
 
 input:focus {
-  border-bottom: 5px solid #CC7832;
+  border-bottom: 5px solid #49cc32;
 }
 
 input[type=submit] {
-  background: #CC7832;
+  background: #4e5f37;
   transition: 0.2s all ease-in-out;
   outline: none;
   border: 1px solid black;
-  box-shadow: 3px 3px 1px #8888C6, 3px 3px 1px 1px black;
+  box-shadow: 3px 3px 1px #4d7459, 3px 3px 1px 1px black;
 }
 input[type=submit]:hover {
   background: $theme-color;
@@ -29,7 +29,7 @@ input[type=submit]:hover {
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
-  border-bottom: 5px solid #95a4ff;
+  border-bottom: 5px solid #3e6340;
   -webkit-text-fill-color: #2A293E;
   -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
   transition: background-color 5000s ease-in-out 0s;
